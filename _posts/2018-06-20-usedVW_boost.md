@@ -8,7 +8,7 @@ tags: ML xgboost
 image: /img/usedVW_boost_files/figure-markdown_github/evaluate_treemodel-1.png
 ---
 
-The linear regression model for predicting used VW Golf prices was a first attempt. The final model did not overfit but was only decent at predicting prices as Rsquared real and predicted values was only about 0.9. Exploring other machine learning algorithms, in particular the currently top performing boosting algorithm, should result in a better prediction performance. **Result:** Both boosting methods perform better than linear regression with boosting with trees topping linear boosting. Both fitted models show nicely random residuals and the repeated 10 fold cross validation made sure the final best model did not overfit to the training data.
+The linear regression model for predicting used VW Golf prices was a first attempt. The final model did not overfit but was only decent at predicting prices as Rsquared real and predicted values was only about 0.9. Exploring other machine learning algorithms, in particular the currently top performing boosting algorithm, should result in a better prediction performance. **Result:** Both boosting methods perform better than linear regression with boosting with trees topping linear boosting. Both fitted models show nicely random residuals and the repeated 10 fold cross validation made sure the final best model did not overfit to the test data.
 
 ### The data
 

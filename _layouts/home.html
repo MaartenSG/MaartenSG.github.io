@@ -23,7 +23,9 @@ layout: default
  
           {{ post.excerpt }} 
 
-	  <img src="{{ site.baseurl }}{{ post.image }}" height="150">
+	  {% if post.image %}
+	    <img src="{{ site.baseurl }}{{ post.image }}" height="150">
+	  {% endif %}
 
       </li>
       {% endfor %}
